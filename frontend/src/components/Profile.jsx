@@ -59,7 +59,7 @@ const Profile = () => {
                     }
                 </div>
             </div>
-            <div className='w-[100vw] lg:w-[60vw] mx-auto bg-white rounded-2xl p-5'>
+            <div className='w-[100vw] lg:w-[60vw] mx-auto bg-white rounded-2xl px-1'>
                 <h1 className='ml-28 lg:ml-0 font-bold text-lg my-10'>Applied Jobs</h1>
                 {/* Applied Job Table   */}
                 <AppliedJobTable />
