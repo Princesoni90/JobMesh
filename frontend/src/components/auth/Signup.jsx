@@ -139,12 +139,13 @@ const Signup = () => {
                             </div>
                         </RadioGroup>
                         <div className='flex items-center gap-2'>
-                            <Label>Pic</Label>
+                            <Label></Label>
                             <Input
                                 accept="image/*"
                                 type="file"
                                 onChange={changeFileHandler}
                                 className="cursor-pointer"
+                                placeholder="Profile Pic"
                             />
                         </div>
                     </div>
